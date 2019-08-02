@@ -10,7 +10,7 @@ class Lottery extends Component{
 
   render(){
     return(
-      <div>Hello</div>
+      <div class="hello" id="hello">Hello</div>
     )
   }
 }
