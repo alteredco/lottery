@@ -2,15 +2,19 @@ import React, {Component} from 'react';
 import './Lottery.css';
 
 class Lottery extends Component{
-
-
-  // const title = title;
-  // const numBalls = ;
-  // const maxVal = {this.props.max};
+  constructor(props) {
+    super(props)
+    // state = {
+    //   title: "Lottery",
+    //   numBalls: 5,
+    //   maxVal: 9
+    // }
+    this.setState()
+  }
 
   render(){
     return(
-      <div>Hello</div>
+      <div class="lottery__container" id="lottery">{this.props.title}</div>
     )
   }
 }
