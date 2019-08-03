@@ -5,7 +5,7 @@ class LotteryBall extends Component {
   render(){
     return(
       <div className="LottoBall__container">
-        
+        {this.props.num}
       </div>
     )
   }

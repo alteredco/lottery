@@ -1,8 +1,6 @@
-.hello {
-  color: green;
-  font-size: 5rem;
-}
 
-#hello {
+
+.lottery__container {
   color: purple;
+  font-size: 5em;
 }
