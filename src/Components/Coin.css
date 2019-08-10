@@ -1,0 +1,17 @@
+.coin__container {
+  border-radius: 50%;
+  color: #fff;
+  display:inline-flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-top: 0;
+  text-align: center;
+  margin-right: 0.5em;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.coin {
+  width: 70%;
+}
