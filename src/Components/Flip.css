@@ -1,0 +1,35 @@
+.flip__container {
+  border: solid 2px  #e1b12c;
+  padding: 1em 0 2em 0;
+  text-align: center;
+  margin: 1em auto auto;
+  border-radius: 10px;
+  width: 85%;
+  background-color: #fff;
+}
+
+.flip__container h1 {
+  font-size: 3em;
+  color: #487eb0;
+  font-family: 'Merriweather', serif;
+}
+
+.flip__container h4 {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.flip__container button {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #7f8fa6;
+  color: #fff;
+  font-size: 1.25em;
+  font-family: 'Merriweather', serif;
+  border-radius: 10px;
+  margin-top: .5em;
+  padding: 1em;
+}

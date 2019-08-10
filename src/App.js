@@ -1,12 +1,11 @@
 import React from 'react';
-import Lottery from './Components/Lottery';
+import Flip from './Components/Flip';
 import './App.css';
 
 function App() {
     return (
       <div className="App__container">
-        <Lottery />
-        <Lottery title="Mini Daily" numBalls={4} maxVal={10}/>
+        <Flip />
       </div>
     )
 }
